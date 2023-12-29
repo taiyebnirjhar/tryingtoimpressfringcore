@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "question": "Explain the difference between 'class components' and 'functional components' in React.",
+    "options": {
+      "first": "Class components use a class-based syntax, while functional components use a function-based syntax.",
+      "second": "There is no difference; they can be used interchangeably.",
+      "third": "Class components are used for stateful logic, while functional components are used for rendering UI.",
+      "fourth": "Functional components are deprecated and should not be used."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of the 'useState' hook in React?",
+    "options": {
+      "first": "To handle side effects in a React component.",
+      "second": "To manage and update state in functional components.",
+      "third": "To create reusable components with dynamic types.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 3,
+    "question": "Explain the concept of 'props' in React.",
+    "options": {
+      "first": "Props are used for defining constant strings in React components.",
+      "second": "Props are properties that can be passed to a React component to customize its behavior.",
+      "third": "Props are only used in class components.",
+      "fourth": "Props are a deprecated feature in React."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 4,
+    "question": "How does the 'useEffect' hook work in React?",
+    "options": {
+      "first": "It modifies the original array.",
+      "second": "It creates a new array by applying a function to each element.",
+      "third": "It is used for handling side effects in functional components.",
+      "fourth": "It is a replacement for class lifecycle methods."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 5,
+    "question": "Explain the purpose of the 'useMemo' hook in React.",
+    "options": {
+      "first": "To memoize functions and optimize performance.",
+      "second": "To manage and update state in functional components.",
+      "third": "To create reusable components with dynamic types.",
+      "fourth": "To handle side effects in a React component."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 6,
+    "question": "What is the role of the 'useReducer' hook in React?",
+    "options": {
+      "first": "To create reusable components with dynamic types.",
+      "second": "To manage and update state in functional components using a reducer function.",
+      "third": "To handle side effects in a React component.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 7,
+    "question": "How do you optimize performance in React?",
+    "options": {
+      "first": "By using class components instead of functional components.",
+      "second": "By avoiding the use of hooks.",
+      "third": "By using the 'useMemo' hook to memoize expensive calculations.",
+      "fourth": "Optimizing performance is not possible in React."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 8,
+    "question": "Explain the concept of 'controlled components' in React.",
+    "options": {
+      "first": "Components that are controlled by external state and do not have their own state.",
+      "second": "Components that manage their own internal state.",
+      "third": "A way to create objects asynchronously.",
+      "fourth": "Components that are only used in class components."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the 'Context API' in React?",
+    "options": {
+      "first": "To handle side effects in a React component.",
+      "second": "To create reusable components with dynamic types.",
+      "third": "To manage and update global state in an application.",
+      "fourth": "Context API is a deprecated feature in React."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 10,
+    "question": "How do you handle forms in React?",
+    "options": {
+      "first": "By using only class components.",
+      "second": "By avoiding the use of hooks.",
+      "third": "By using the 'useState' hook to manage form state.",
+      "fourth": "Forms cannot be handled in React."
+    },
+    "correctAnswer": "third"
+  },
+
+  {
+    "id": 11,
+    "question": "Explain the concept of 'React Hooks' and why they were introduced.",
+    "options": {
+      "first": "React Hooks are deprecated and should not be used.",
+      "second": "React Hooks are used for styling components in React applications.",
+      "third": "React Hooks are functions that enable the use of state and other React features in functional components.",
+      "fourth": "React Hooks are exclusive to class components."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 12,
+    "question": "How do you prevent unnecessary renders in a React component?",
+    "options": {
+      "first": "By using only class components.",
+      "second": "By avoiding the use of hooks.",
+      "third": "By using the 'useMemo' hook to memoize values.",
+      "fourth": "Unnecessary renders cannot be prevented in React."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 13,
+    "question": "Explain the purpose of the 'React Router' library in a React application.",
+    "options": {
+      "first": "React Router is used for handling side effects in a React component.",
+      "second": "React Router is used for managing and updating global state in an application.",
+      "third": "React Router provides navigation and routing functionality for React applications.",
+      "fourth": "React Router is a replacement for the 'useState' hook."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 14,
+    "question": "What is the significance of the 'key' prop in React lists?",
+    "options": {
+      "first": "The 'key' prop is used for styling components in React applications.",
+      "second": "The 'key' prop is used to uniquely identify elements in a list, facilitating efficient updates.",
+      "third": "The 'key' prop is deprecated and should not be used.",
+      "fourth": "The 'key' prop is only applicable to class components."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 15,
+    "question": "How do you share state between components in React?",
+    "options": {
+      "first": "By using only class components.",
+      "second": "By avoiding the use of hooks.",
+      "third": "By lifting state up to a common ancestor or using context.",
+      "fourth": "Sharing state between components is not possible in React."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 16,
+    "question": "Explain the concept of 'Higher Order Components (HOC)' in React.",
+    "options": {
+      "first": "Components that are higher in the component tree.",
+      "second": "Functions that take a component and return a new enhanced component.",
+      "third": "Components with a higher priority in rendering.",
+      "fourth": "Components used for handling state in React."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 17,
+    "question": "How does the 'useContext' hook work in React?",
+    "options": {
+      "first": "It is used to create reusable components with dynamic types.",
+      "second": "It provides a way to access values from the nearest context provider in the component tree.",
+      "third": "It is a replacement for class lifecycle methods.",
+      "fourth": "It is used to manage and update state in functional components."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 18,
+    "question": "Explain the concept of 'React Portals' and their use cases.",
+    "options": {
+      "first": "React Portals are deprecated and should not be used.",
+      "second": "React Portals are used for handling side effects in a React component.",
+      "third": "React Portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.",
+      "fourth": "React Portals are exclusive to class components."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of the 'Error Boundary' concept in React?",
+    "options": {
+      "first": "Error Boundaries are used to create reusable components with dynamic types.",
+      "second": "Error Boundaries are a replacement for the 'useEffect' hook.",
+      "third": "Error Boundaries are components that catch JavaScript errors anywhere in their child component tree and log those errors or display a fallback UI.",
+      "fourth": "Error Boundaries are used to manage and update state in functional components."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 20,
+    "question": "How does React handle events?",
+    "options": {
+      "first": "React uses a custom event system for handling events.",
+      "second": "React does not support event handling.",
+      "third": "React relies on the native browser event system for handling events.",
+      "fourth": "React events are only applicable to class components."
+    },
+    "correctAnswer": "first"
+  }
+]

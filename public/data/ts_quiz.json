@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "Explain the concept of Generics in TypeScript.",
+    "options": {
+      "first": "A way to create reusable components with dynamic types.",
+      "second": "A method for defining constants in TypeScript.",
+      "third": "A technique to handle asynchronous operations.",
+      "fourth": "A process of converting data into a string format."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 2,
+    "question": "How do you use generics with functions in TypeScript?",
+    "options": {
+      "first": "By specifying the generic type in square brackets before the function name.",
+      "second": "By using the 'generic' keyword in the function signature.",
+      "third": "Generics cannot be used with functions in TypeScript.",
+      "fourth": "By adding a 'G' prefix to the function name."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of the 'keyof' keyword in TypeScript?",
+    "options": {
+      "first": "To create an array of keys from an object.",
+      "second": "To extract the values of an object.",
+      "third": "To check if a key exists in an object.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "fourth"
+  },
+  {
+    "id": 4,
+    "question": "Explain the difference between 'interface' and 'type' in TypeScript.",
+    "options": {
+      "first": "There is no difference; they can be used interchangeably.",
+      "second": "'type' is used for defining object shapes, while 'interface' is used for creating aliases.",
+      "third": "'interface' is used for defining object shapes, while 'type' is used for creating aliases.",
+      "fourth": "'interface' is used for defining primitive types, while 'type' is used for creating object shapes."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 5,
+    "question": "How can you create a generic class in TypeScript?",
+    "options": {
+      "first": "By using the 'generic' keyword before the class declaration.",
+      "second": "Generics cannot be used with classes in TypeScript.",
+      "third": "By specifying the generic type in angle brackets after the class name.",
+      "fourth": "By using the 'class' keyword followed by the generic type."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of the 'Partial' type in TypeScript?",
+    "options": {
+      "first": "To make all properties of an object optional.",
+      "second": "To create a union type of all possible values.",
+      "third": "To extract a subset of keys from an object.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 7,
+    "question": "Explain the concept of 'mapped types' in TypeScript.",
+    "options": {
+      "first": "A way to create objects asynchronously.",
+      "second": "A technique to transform the properties of one type into another.",
+      "third": "Syntax for handling asynchronous code that makes it look and behave like synchronous code.",
+      "fourth": "A method for defining constants in TypeScript."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 8,
+    "question": "How do you specify constraints on generics in TypeScript?",
+    "options": {
+      "first": "By using the 'constraint' keyword in the generic declaration.",
+      "second": "Generics in TypeScript cannot have constraints.",
+      "third": "By using the 'extends' keyword followed by the desired type.",
+      "fourth": "By adding a 'C' suffix to the generic name."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the 'keyof' and 'in' combination in TypeScript?",
+    "options": {
+      "first": "To create an array of keys from an object.",
+      "second": "To extract the values of an object.",
+      "third": "To iterate over the keys of an object.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 10,
+    "question": "How do you use conditional types in TypeScript?",
+    "options": {
+      "first": "By using the 'if' statement in type declarations.",
+      "second": "By using the 'switch' statement in type declarations.",
+      "third": "Generics cannot be used with conditional types.",
+      "fourth": "By using the 'extends' keyword with a conditional expression."
+    },
+    "correctAnswer": "fourth"
+  },
+  {
+    "id": 11,
+    "question": "What are 'template literal types' in TypeScript?",
+    "options": {
+      "first": "A way to create generic types with dynamic templates.",
+      "second": "A method for defining constant strings in TypeScript.",
+      "third": "A technique for transforming strings into HTML templates.",
+      "fourth": "Generics cannot be used with template literal types."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 12,
+    "question": "Explain the use of the 'as' keyword in TypeScript.",
+    "options": {
+      "first": "To create aliases for complex types.",
+      "second": "To specify the return type of a function.",
+      "third": "To cast one type into another.",
+      "fourth": "To define a generic type."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of 'indexed access types' in TypeScript?",
+    "options": {
+      "first": "To create indices for arrays.",
+      "second": "To access properties dynamically using string literals.",
+      "third": "To create a union type of all possible values.",
+      "fourth": "Generics cannot be used with indexed access types."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 14,
+    "question": "Explain the concept of 'declaration merging' in TypeScript.",
+    "options": {
+      "first": "A way to merge multiple types into a single type.",
+      "second": "A method for merging variable declarations with the same name.",
+      "third": "A technique to handle asynchronous operations.",
+      "fourth": "Generics cannot be used with declaration merging."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 15,
+    "question": "How do you use 'infer' in TypeScript?",
+    "options": {
+      "first": "To specify the return type of a function.",
+      "second": "To declare a variable that TypeScript will infer based on usage.",
+      "third": "Generics cannot be used with 'infer'.",
+      "fourth": "To create generic types with dynamic templates."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 16,
+    "question": "What is the purpose of 'readonly' in TypeScript?",
+    "options": {
+      "first": "To make properties of an object writable.",
+      "second": "To create read-only arrays.",
+      "third": "To define constant values in TypeScript.",
+      "fourth": "To create generic types."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 17,
+    "question": "Explain the concept of 'conditional types' in TypeScript.",
+    "options": {
+      "first": "A way to create objects asynchronously.",
+      "second": "A technique for creating types that depend on a condition.",
+      "third": "Syntax for handling asynchronous code that makes it look and behave like synchronous code.",
+      "fourth": "Generics cannot be used with conditional types."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 18,
+    "question": "How do you use 'this' type in TypeScript?",
+    "options": {
+      "first": "To specify the type of a function parameter.",
+      "second": "To refer to the instance type inside a class or interface.",
+      "third": "Generics cannot be used with 'this' type.",
+      "fourth": "To create a union type of all possible values."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of 'keyof' and 'as' combination in TypeScript?",
+    "options": {
+      "first": "To create an array of keys from an object.",
+      "second": "To extract the values of an object.",
+      "third": "To iterate over the keys of an object.",
+      "fourth": "To specify the type of keys that can be used with an object."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 20,
+    "question": "Explain the concept of 'conditional module loading' in TypeScript.",
+    "options": {
+      "first": "A way to load modules conditionally based on runtime variables.",
+      "second": "A technique for handling errors in asynchronous code.",
+      "third": "Syntax for creating optional modules.",
+      "fourth": "Generics cannot be used with conditional module loading."
+    },
+    "correctAnswer": "first"
+  }
+]

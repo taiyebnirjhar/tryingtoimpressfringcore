@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What is a closure in JavaScript?",
+    "options": {
+      "first": "A function defined inside another function, with access to the outer function's variables.",
+      "second": "A data structure for storing key-value pairs.",
+      "third": "A way to declare variables with block scope.",
+      "fourth": "A method to handle asynchronous operations."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 2,
+    "question": "Explain the concept of Higher Order Components (HOC).",
+    "options": {
+      "first": "Components that are higher in the component tree.",
+      "second": "Functions that take a component and return a new enhanced component.",
+      "third": "Components with a higher priority in rendering.",
+      "fourth": "Components used for handling state in React."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 3,
+    "question": "What is hoisting in JavaScript?",
+    "options": {
+      "first": "The process of lifting heavy objects in code.",
+      "second": "Moving declarations to the top of the file or function.",
+      "third": "A way to access variables before they are declared.",
+      "fourth": "An error in the JavaScript runtime."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 4,
+    "question": "How do functional array functions like map and filter work?",
+    "options": {
+      "first": "They modify the original array in place.",
+      "second": "They create a new array without modifying the original.",
+      "third": "They only work on arrays with numeric values.",
+      "fourth": "They can only be used in combination with Redux."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 5,
+    "question": "Explain the concept of 'hoisting' in JavaScript.",
+    "options": {
+      "first": "A technique for lifting heavy objects in code.",
+      "second": "Moving declarations to the top of the file during compilation.",
+      "third": "A way to access variables before declaring them.",
+      "fourth": "An error that occurs when declaring variables."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 6,
+    "question": "What are arrow functions in JavaScript?",
+    "options": {
+      "first": "Functions with a new syntax using the '=>'",
+      "second": "Functions that always return true.",
+      "third": "Functions used for asynchronous operations.",
+      "fourth": "Functions that modify the global object."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 7,
+    "question": "Explain the concept of 'destructuring' in JavaScript.",
+    "options": {
+      "first": "A way to create objects.",
+      "second": "Assigning values to variables from arrays or objects.",
+      "third": "Breaking down large functions into smaller ones.",
+      "fourth": "A technique to handle errors in asynchronous code."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of the 'bind' method in JavaScript?",
+    "options": {
+      "first": "To create a new array with specific elements.",
+      "second": "To bind a function to a particular object.",
+      "third": "To remove elements from an array.",
+      "fourth": "To check if a value is present in an array."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 9,
+    "question": "How does the 'map' function work in JavaScript?",
+    "options": {
+      "first": "It modifies the original array.",
+      "second": "It creates a new array by applying a function to each element.",
+      "third": "It removes elements from an array.",
+      "fourth": "It checks if a value is present in an array."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 10,
+    "question": "Explain the concept of 'currying' in JavaScript.",
+    "options": {
+      "first": "A way to prepare and cook functions.",
+      "second": "Transforming a function with multiple arguments into a sequence of functions.",
+      "third": "A method to sort elements in an array.",
+      "fourth": "A technique to handle asynchronous operations."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of the 'Promise' object in JavaScript?",
+    "options": {
+      "first": "To handle asynchronous operations and represent a value that might be available now, or in the future, or never.",
+      "second": "To create immutable data structures.",
+      "third": "To bind functions to objects.",
+      "fourth": "To remove elements from an array."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 12,
+    "question": "Explain the concept of 'memoization' in JavaScript.",
+    "options": {
+      "first": "A technique to store function results and avoid redundant calculations by caching previous results.",
+      "second": "A method to manipulate the DOM directly.",
+      "third": "A way to handle errors in asynchronous code.",
+      "fourth": "A process of converting data into a string format."
+    },
+    "correctAnswer": "first"
+  },
+  {
+    "id": 13,
+    "question": "What is the Event Loop in JavaScript?",
+    "options": {
+      "first": "A way to loop through elements in an array.",
+      "second": "A mechanism that allows asynchronous operations to be executed in a non-blocking way.",
+      "third": "A method to sort elements in an array.",
+      "fourth": "A way to access variables before they are declared."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 14,
+    "question": "Explain the concept of 'async/await' in JavaScript.",
+    "options": {
+      "first": "A way to create objects asynchronously.",
+      "second": "Syntax for handling asynchronous code that makes it look and behave like synchronous code.",
+      "third": "A method to handle form submissions in React.",
+      "fourth": "A technique for lifting heavy objects in code."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the 'spread' operator in JavaScript?",
+    "options": {
+      "first": "To merge two arrays into one.",
+      "second": "To create a shallow copy of an object or array.",
+      "third": "To filter elements in an array.",
+      "fourth": "To handle errors in asynchronous code."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 16,
+    "question": "Explain the concept of the 'this' keyword in JavaScript.",
+    "options": {
+      "first": "A reserved keyword used to declare variables.",
+      "second": "A way to access variables before they are declared.",
+      "third": "A reference to the object that the function is a property of.",
+      "fourth": "A method to handle asynchronous operations."
+    },
+    "correctAnswer": "third"
+  },
+  {
+    "id": 17,
+    "question": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+    "options": {
+      "first": "They are all the same and can be used interchangeably.",
+      "second": "'let' and 'const' have block scope, while 'var' has function scope.",
+      "third": "'let' is used for numbers, 'const' for strings, and 'var' for booleans.",
+      "fourth": "There is no difference between them."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 18,
+    "question": "How does the 'reduce' function work in JavaScript?",
+    "options": {
+      "first": "It modifies the original array.",
+      "second": "It creates a new array by applying a function to each element.",
+      "third": "It removes elements from an array.",
+      "fourth": "It accumulates values of an array into a single result."
+    },
+    "correctAnswer": "fourth"
+  },
+  {
+    "id": 19,
+    "question": "Explain the concept of 'Web Workers' in JavaScript.",
+    "options": {
+      "first": "Workers who build websites.",
+      "second": "A way to create responsive web applications by running scripts in the background.",
+      "third": "A technique for securing web applications.",
+      "fourth": "A method to bind functions to objects."
+    },
+    "correctAnswer": "second"
+  },
+  {
+    "id": 20,
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "options": {
+      "first": "To store data that has no expiration time.",
+      "second": "To create local copies of remote files.",
+      "third": "To manipulate the DOM directly.",
+      "fourth": "To bind functions to objects."
+    },
+    "correctAnswer": "first"
+  }
+]
