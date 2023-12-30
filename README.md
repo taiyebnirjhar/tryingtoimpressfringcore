@@ -11,7 +11,7 @@ Check out the live demo: [https://tryingtoimpressfringcore.web.app/](https://try
 ## Features
 
 - **Quiz Topics:** Covering JavaScript, closures, functional array functions, TypeScript, generics, ReactJS, and Redux.
-- **Technologies:** Utilizes a modern stack including React, Vite, TypeScript, Firebase, Axios, Zod, and more.
+- **Technologies:** Utilizes a modern stack including React, Redux, Vite, TypeScript, Firebase, Axios, Zod, and more.
 - **Responsive Design:** Ensures a seamless experience across various devices.
 
 ## Getting Started
@@ -42,6 +42,7 @@ The project structure is designed for clarity and modularity:
 Key dependencies include:
 
 - **React:** Building user interfaces.
+- **Redux:** State Management.
 - **Vite:** Next-generation frontend tooling.
 - **Firebase:** Backend services and authentication.
 - **Axios:** Making HTTP requests.

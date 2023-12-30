@@ -1,13 +1,14 @@
 import SidebarItems from "@/constants/sidebarItems";
+import { useAppDispatch, useAppSelector } from "@/hooks/storeHooks";
+import { toggleSidebar } from "@/redux/features/sidebar.slice";
 import { Link } from "react-router-dom";
 
-interface AsideProps {
-  isSidebarOpen: boolean;
-  toggleSidebar: () => void;
-}
-
-const Aside: React.FC<AsideProps> = ({ isSidebarOpen, toggleSidebar }) => {
+const Aside = () => {
   const windowWidth = window.innerWidth;
+
+  const dispatch = useAppDispatch();
+
+  const { isSidebarOpen } = useAppSelector((state) => state.sidebarSlice);
 
   return (
     <aside
@@ -28,7 +29,7 @@ const Aside: React.FC<AsideProps> = ({ isSidebarOpen, toggleSidebar }) => {
                   className="flex items-center p-2 text-gray-900 rounded-lg d hover:bg-gray-100 dark:hover:bg-gray-700 group"
                   onClick={() => {
                     if (windowWidth < 640) {
-                      toggleSidebar();
+                      dispatch(toggleSidebar());
                     }
                   }}
                 >
