@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div> I AM HERE</div>,
+        element: <QuizForJs />,
       },
       {
         path: "/dive-into-javascript",
